@@ -153,7 +153,7 @@ php bin/magento indexer:reindex
     mkdir  644 ./app/etc/*.xml
     mkdir  -Rf 775 bin
 	
-php bin/magento setup:install --base-url="test.arun.com"--db-host="167.99.205.158"--db-name="zayron"--db-user="root"--db-password="" --admin-firstname="Admin"--admin-lastname="Admin"--admin-email="arunsuryavanshi1111@gmail.com"--admin-user="mysupportteam"--admin-password="support@234" --use-rewrites="1"--backend-frontname="admin"--db-prefix=mage_
+php bin/magento setup:install --base-url="test.arun.com"--db-host="167.99.205.158"--db-name="arunMagento2Developer"--db-user="root"--db-password="" --admin-firstname="Admin"--admin-lastname="Admin"--admin-email="arunsuryavanshi1111@gmail.com"--admin-user="mysupportteam"--admin-password="support@234" --use-rewrites="1"--backend-frontname="admin"--db-prefix=mage_
 
 COMPOSER_MEMORY_LIMIT=-1 composer create-project 
 
